@@ -1,1 +1,1 @@
-抖音云基于云函数NodeJs提供的HTTP服务端示例。
+抖音云基于云函数NodeJs提供的HTTP服务端示例,具体参考：https://developer.open-douyin.com/docs/resource/zh-CN/developer/tools/cloud/guide/cloud-function-service-manage/cloud-function-guide
