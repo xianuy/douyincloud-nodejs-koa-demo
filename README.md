@@ -1,1 +1,1 @@
-抖音云基于云函数NodeJs提供的直播小玩法的服务端示例代码，代码注释参阅文档：https://developer.open-douyin.com/docs/resource/zh-CN/interaction/develop/douyincloud/guide#da882b1a
+抖音云基于云函数NodeJs提供的HTTP服务端示例。
