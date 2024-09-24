@@ -5,9 +5,8 @@
  * @return 函数的返回数据，HTTP 场景下会作为 Response Body
  *
  */
-const { dySDK } = require("@open-dy/node-server-sdk");
-
-module.exports = async function (params, context) {
+import { dySDK } from "@open-dy/node-server-sdk";
+export default async function (params: any, context: any) {
   const serviceContext = dySDK.context(context);
   const reqContext = serviceContext.getContext();
   context.log("openId", reqContext?.openId);
@@ -16,4 +15,4 @@ module.exports = async function (params, context) {
     message: "",
     data: reqContext?.openId,
   };
-};
+}

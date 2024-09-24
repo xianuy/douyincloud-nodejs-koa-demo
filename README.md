@@ -15,13 +15,13 @@
 ## 目录结构(quickstart)
 
 ```
-├── get_open_id.js              获取 open_id。
-├── insert_record.js            向云数据库中demo插入一条数据。
+├── get_open_id.ts              获取 open_id。
+├── insert_record.ts            向云数据库中demo插入一条数据。
 ├── package.json                云函数工程配置文件。
-├── antidirt.js                 云调用示例，调用抖音开放平台的OpenApi进行检测一段文本是否包含违法违规内容。
+├── antidirt.ts                 云调用示例，调用抖音开放平台的OpenApi进行检测一段文本是否包含违法违规内容。
 ├── README.md                   Readme文件
-├── select_record.js            从云数据库中查询demo数据
-├── update_record.js            更新云数据库中demo对应数据
+├── select_record.ts            从云数据库中查询demo数据
+├── update_record.ts            更新云数据库中demo对应数据
 
 ```
 
